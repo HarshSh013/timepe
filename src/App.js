@@ -1,13 +1,11 @@
 import './App.css';
 import Appbar from './Appbar';
-
-import Demo from './Demo';
-
+import Stickyfooter from './Stickyfooter';
 function App() {
   return (
     <div className="App">
       <Appbar/>
-      <Demo/>      
+      <Stickyfooter/>
     </div>
   );
 }
